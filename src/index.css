@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  font-family: 'Poppins';
+}
+
+nav {
+  background-image: linear-gradient(to right, #dddddd, #d2d2de, #c5c7e0, #b6bde2, #a4b3e4, #99b1e7, #8bafea, #7baeed, #72b3f0, #69b7f3, #5fbcf5, #54c0f7);
+}
